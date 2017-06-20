@@ -1,0 +1,23 @@
+obj
+bin
+.cr
+.vs
+Import Schema Logs
+TestResults.txt
+Publish/*
+packages/*
+!packages/repositories.config
+
+*.dbmdl
+*.user
+
+MemoryTester/node_modules
+**/*npm-debug.log.*
+MemoryTester/**/*.js*
+
+!MemoryTester/systemjs.config.js
+!MemoryTester/systemjs.config.extras.js
+!MemoryTester/package.json
+!MemoryTester/tsconfig.json
+!MemoryTester/tslint.json
+!MemoryTester/Scripts/*
